@@ -1,0 +1,7 @@
+body {
+	background-image: linear-gradient(to right, #2c282b, #3e3b3f, #515054, #656569, #7a7b7f, #808285, #86888c, #8c8f92, #85888a, #7e8182, #77797a, #717272);
+}
+
+.justify-content-center {
+	justify-content: center;
+}
