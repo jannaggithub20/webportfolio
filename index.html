@@ -9,21 +9,20 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Libre+Franklin&family=Mulish:wght@300&family=Oleo+Script+Swash+Caps&family=Tajawal:wght@300&display=swap" rel="stylesheet">
 
-	<!-- CSS Link -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-
+	
 	<!-- Bootstrap Link -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-	<title>Albert Einstein||Developer Portfolio</title>
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Janna Gasilao||Developer Portfolio</title>
 
 </head>
 
 <body>
 
 	<!-- Navbar Section Start -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-	  		<a class="navbar-brand" href="#landing">Albert Einstein</a>
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+	  		<a class="navbar-brand" href="#landing">Janna Gasilao</a>
 	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    			<span class="navbar-toggler-icon"></span>
 	 			 </button>
@@ -33,16 +32,16 @@
 	        		<a class="nav-link" href="#landing">Home<span class="sr-only">(current)</span></a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#landing">About</a>
+	        		<a class="nav-link" href="#landing">About Me</a>
 	      		</li>
 	     		<li class="nav-item">
-	        		<a class="nav-link" href="#Projects">Projects</a>
+	        		<a class="nav-link" href="#projects">My Projects</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#Tools">Tools</a>
+	        		<a class="nav-link" href="#tools">My Tools</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#Contact">Contact</a>
+	        		<a class="nav-link" href="#contact">Contact</a>
 	      		</li>
 	    	</ul>
 	  	</div>
@@ -50,26 +49,41 @@
 	<!-- Navbar Section End -->
 
 	<!-- About -->
+	<div id="landing">
 		<div class="container-fluid">
-			<div class="text-light p-3 text-center"id="landing">
-					<img class="rounded-circle"src="https://www.biography.com/.image/t_share/MTc5ODc5NjY5ODU0NjQzMzIy/gettyimages-3091504.jpg" alt="Alber Einstein" width="350">
-			
-					<h1>Albert Einstein</h1>
-					<h3>Full-Stack Developer</h3>
-					
-					<div class="container p-3">
-					<p class="text-justify">Albert Einstein was a German mathematician and physicist who developed the special and general theories of relativity. In 1921, he won the Nobel Prize for physics for his explanation of the photoelectric effect. In the following decade, he immigrated to the U.S. after being targeted by the German Nazi Party.</p>
-					<p class="text-justify">His work also had a major impact on the development of atomic energy. In his later years, Einstein focused on unified field theory. With his passion for inquiry, Einstein is generally considered the most influential physicist of the 20th century.</p>
+			<div class="row">
+				<div class="col">
+					<div class="text-center p-3" >
+					<img class="img-fluid rounded-circle"src="C:\Users\janna\Documents\Batch183\s12 Capstone 1 development\Images\199213198_4338510022826471_6784609586579581807_n.jpg" 
+					alt="Janna Gasilao" width="300">
 					</div>
-			</div>
+
+					<div class="text-center text-light">
+					<h2 class="p-3" id="landing">About Me</h2>
+
+						<div class="container-fluid">
+							<div class="row justify-content-center">
+								<div class="col-lg-8">
+								<p class="text-justify">I started coding in early 30's but it doesn't stop me from learning and it excites me to show what I've learn from my bootcamp and start applying my skills and experience with my future clients.
+								P.S I'm also a part-time busker (street performer) who loves to sing and play guitar 
+								&#128515;</p>
+								</div>
+							</div>
+						</div>
+				</div>	
+			</div>	
 		</div>
+	</div>	
 	<!-- About End-->
 
 	<!-- Projects -->
-			<h2 class="text-center text-light" id="Projects">Projects</h2>
-	<div class="container-fluid">	
+	<div id="projects">
+		
+	<div class="container-fluid p-5">	
+		<h2 class="text-center text-light" >Projects</h2>
 		<div class="card-deck my-5 justify-content-center">
-		  <div class="card col-md-3">
+
+		  <div class="card col-md-3 card bg-light text-dark ">
 		    <img src="C:\Users\janna\Documents\Batch183\s12 Capstone 1 development\Images\real-estate-accommodation-property-investment-graphic-word.jpg"class="card-img-top" alt="...">
 		    <div class="card-body">
 		      <h5 class="card-title">Real State Website</h5>
@@ -77,7 +91,7 @@
 		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 		    </div>
 		  </div>
-		  <div class="card col-md-3">
+		  <div class="card col-md-3 card bg-light text-dark">
 		    <img src="C:\Users\janna\Documents\Batch183\s12 Capstone 1 development\Images\shopping-online-shopaholics-e-commerce-e-shopping-concept.jpg" class="card-img-top" alt="...">
 		    <div class="card-body">
 		      <h5 class="card-title">Online Shopping Website</h5>
@@ -86,7 +100,7 @@
 		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 		    </div>
 		  </div>
-		  <div class="card col-md-3">
+		  <div class="card col-md-3 card bg-light text-dark">
 		    <img src="C:\Users\janna\Documents\Batch183\s12 Capstone 1 development\Images\online-message-blog-chat-communication-envelop-graphic-icon-concept.jpg" class="card-img-top" alt="...">
 		    <div class="card-body">
 		      <h5 class="card-title">Blog Website</h5>
@@ -96,12 +110,19 @@
 		  </div>
 		</div>
 	</div>
+	</div>
 	<!-- Projects End -->
 
-	<!-- Tools -->
-		<h2 class="text-center text-light">Tools</h2>
 
-		            <div class="d-flex flex-wrap justify-content-center mb-4" id="Tools">
+
+	<!-- tools -->
+	<div id="tools">
+		
+	<div class="container-fluid p-5">	
+		<h2 class="text-center text-light ">Tools</h2>
+			
+
+		            <div class="d-flex flex-wrap justify-content-center mb-4">
 		            	<img width="150" src="C:\Users\janna\Documents\Batch183\s12 Capstone 1 development\Images\logo-html5.png"/>
 		            	<img width="150" src="images/logo-css3.png"/>
 		            	<img width="150" src="images/logo-javascript.png"/>
@@ -117,59 +138,51 @@
 		                <img width="150" src="images/logo-postman.png"/>
 		                <img width="150" src="images/logo-gitlab-ci-cd.png"/>
 		            </div>
-		        </div>
+		     </div> 
+		
+	</div>
+	</div>
+	<!-- tools End -->
 
-	<!-- Tools End -->
 
 	<!-- Contact -->
+	 <div id="contact">
+		<h2 class="text-center text-light">Contact</h2>
+	 	
+	 	<div class="container-fluid">
+	 		<div class="row justify-content-center text-light">
+	 			<div class="col-lg-5 my-4">
+	 				<h3 class="text-center my-4">Message Us</h3>
+	 				<form class="form-group">
+	 		        <label for="fname">Full Name</label>
+	 		        <input type="text" id="fname" name="fullname">
+	 		        <label for="email">Email Address</label>
+	 		        <input type="text" id="lname" name="Email Address">
+	 		        <label for="subject">Message</label>
+	 		        <textarea id="subject" name="subject"style="height:170px"></textarea>
+	 		        <input type="submit" value="Submit">
+	 		      </form>
+	 		   </div>
 
-		<h2 class="text-center text-light" id="Contact">Contact Us</h2>
-	<div class="container">	
-	  <div class=" row p-3 justify-content-center text-center">
-	 	<div class="p-3 col-sm-12 col-md-8 col-lg-8 col-xl-4">		
-			
-			<!-- Form Section Start -->
-						  <div class="form-group">
-						      <label for="inputEmail4 text-center">Name</label>
-						      <input type="Name" class="form-control" id="inputEmail">
-						  </div>
+	 		      
+	 		      <div class="col-lg-5 my-4">
+	 		      	<h3 class="text-center my-4">Visit Us</h3>
+	 		      	<iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.5948170841993!2d121.02425969999999!3d14.565148100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9a850b80873%3A0xee2507afe34808d3!2s4%20Saturn%2C%20Makati%2C%201209%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1653374480453!5m2!1sen!2sph" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	 		      </div>
 
-						  <div class="form-group">
-						    <label for="inputAddress text-center">Email Address</label>
-						    <input type="text" class="form-control" id="inputAddress">
-						  </div>
-
-						  <div class="form-group">
-						    <label for="inputAddress2 text-center">Contact Number</label>
-						    <input type="text" class="form-control" id="inputAddress2">
-						  </div>
-
-						  <div class="form-group">
-						    <label for="textarea">Message</label>
-						    <textarea class="form-control" id="textarea" rows="7"></textarea>
-						  </div>
-
-						  	<div>
-						  		<!-- Button trigger modal -->
-						  		<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
-						  		  Submit
-						  		</button>						  		
-	  						</div>
-	  		</div>
-	 	</div>  
-	</div>
-
-	<!-- Map -->
-
-		<div>
-			
-		</div>
-
-
-
+	 			</div>
+	 		</div>			
+	 	</div>
+	 	
 	<!-- Contact End -->
 
 	<!-- Footer -->
+
+	<footer class="mt-5 p-3 bg-dark text-light">
+		<h6 class="text-center">Janna Gasilao</h6>
+		<p class="text-center">Full Stack Web Developer</p>
+		<p class="text-center">© All Rights Reserved 2022</p>
+	</footer>
 
 
 

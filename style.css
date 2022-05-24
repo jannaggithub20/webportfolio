@@ -1,7 +1,47 @@
+
+
 body {
-	background-image: linear-gradient(to right, #2c282b, #3e3b3f, #515054, #656569, #7a7b7f, #808285, #86888c, #8c8f92, #85888a, #7e8182, #77797a, #717272);
+	background-image: linear-gradient(to right top, #566d90, #427487, #477776, #5b7667, #6e7460);
+	scroll-behavior: smooth;
 }
 
-.justify-content-center {
-	justify-content: center;
+* {
+  box-sizing: border-box;
 }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}  
+
+#gmap_canvas {
+	height: 60vh;
+	width: 100%;
+}
+
+.my-4 {
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+/*.col-md-6 {
+	flex: 50%;
+	max-width: 50%;
+}*/
